@@ -57,7 +57,14 @@ location = /health {
     echo 'alive';
 }
 ```
-## 4. copy files inside serviceRegistry/html to your web root directory, test them.
+## 4. copy files inside serviceRegistry/html to your web root directory.
+
+## 5. run a zuul gateway application, for example my zuul application run on host 10.100.106.244, and the port is 8040, you can visit your PHP service by url http://10.100.106.244:8040/openresty-consul-test-app/index.php.
+
+## 6. you can visit another java microservices in your PHP microservices by zuul gateway.
+
+## 7. in your java microservices, you can visit PHP microservices by RestTemplate, Feign ...
+
 
 
 for eureka, the steps are almost same as consul guide, ignore ...
