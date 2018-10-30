@@ -1,0 +1,13 @@
+{
+    "ID":"openresty-consul-test-app-192.168.91.129:80",
+    "Name":"openresty-consul-test-app",
+    "Tags":[
+        "secure=false"
+    ],
+    "Address":"192.168.91.129",
+    "Port":80,
+    "Check":{
+        "Interval":"10s",
+        "HTTP":"http://192.168.91.129:80/health"
+    }
+}

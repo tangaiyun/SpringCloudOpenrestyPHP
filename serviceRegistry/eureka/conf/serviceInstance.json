@@ -1,0 +1,32 @@
+{
+	"instance": {
+		"vipAddress": "ngx-eureka-client-app",
+		"hostName": "192.168.91.129",
+		"leaseInfo": {
+			"evictionDurationInSecs": 60
+		},
+		"securePort": {
+			"$": 443,
+			"@enabled": false
+		},
+		"dataCenterInfo": {
+			"@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+			"name": "MyOwn"
+		},
+		"instanceId": "NGX-EUREKA-CLIENT-APP:192.168.91.129:80",
+		"healthCheckUrl": "http://192.168.91.129:80/check",
+		"status": "UP",
+		"port": {
+			"$": 80,
+			"@enabled": true
+		},
+		"metadata": {
+			"language": "ngx_lua"
+		},
+		"ipAddr": "192.168.91.129",
+		"app": "NGX-EUREKA-CLIENT-APP",
+		"homePageUrl": "http://192.168.91.129:80/info",
+		"secureVipAddress": "ngx-eureka-client-app",
+		"statusPageUrl": "http://192.168.91.129:80/status"
+	}
+}
