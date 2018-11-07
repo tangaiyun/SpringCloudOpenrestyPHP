@@ -9,7 +9,7 @@ project tested on Spring Cloud version--Finchley.SR1(2.0.5.RELEASE).
 
 usage:
 
-make sure you have install openresty and php 7.0&FPM successfully
+make sure you have installed openresty and php 7.0&FPM successfully
 
 # for Spring cloud consul:
 
