@@ -63,6 +63,8 @@ location = /health {
 
 ## 6. you can visit another java microservices in your PHP microservices by zuul gateway.
 
+pattern http://{zuulhost}:{port}/{serviceName}/{contextPath}
+
 ## 7. in your java microservices, you can visit PHP microservices by RestTemplate, Feign ...
 
 
