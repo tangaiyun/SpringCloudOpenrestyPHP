@@ -59,7 +59,7 @@ location = /health {
 ```
 ## 4. copy files inside serviceRegistry/html to your web root directory.
 
-## 5. run a zuul gateway application, for example my zuul application run on host 10.100.106.244, and the port is 8040, I can visit PHP service by url http://10.100.106.244:8040/openresty-consul-test-app/index.php.
+## 5. run a zuul gateway application, for example my zuul application run on host 10.100.106.244, and the port is 8040, then I can visit PHP service by the url http://10.100.106.244:8040/openresty-consul-test-app/index.php.
 
 ## 6. you can visit another java microservices in your PHP microservices by zuul gateway.
 
