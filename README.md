@@ -50,7 +50,7 @@ change the variable "consulUrl" -- "http://192.168.91.128:8500" to your own cons
 ```
 don't change any key in this json, change the value according to your environment.
 
-please make sure the check url (it is "http://192.168.91.129:80/health" in my example） is accessible url, I added a block in nginx.conf as below:
+please make sure the check url (it is "http://192.168.91.129:80/health" in my example） is an accessible url, I added a block in nginx.conf as below:
 
 ```
 location = /health {
